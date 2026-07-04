@@ -5,7 +5,6 @@ local opt = vim.opt
 
 -- Interface básica
 opt.number = true          -- número da linha atual
-opt.relativenumber = true  -- números relativos (facilita mover com j/k)
 opt.cursorline = true      -- destaca a linha do cursor
 opt.termguicolors = true   -- cores corretas no terminal
 opt.signcolumn = "yes"     -- coluna fixa pra sinais (evita "pulo" de texto)
